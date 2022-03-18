@@ -21,13 +21,13 @@ public class InputNegativeTest {
 		btnAdd.click();
 
 		WebElement firstName = driver.findElement(By.id("firstName"));
-		firstName.sendKeys("Doni");
+		firstName.sendKeys("");
 
 		WebElement lastName = driver.findElement(By.id("lastName"));
-		lastName.sendKeys("Salmanan");
+		lastName.sendKeys("");
 
 		WebElement email = driver.findElement(By.id("userEmail"));
-		email.sendKeys("donisalmanan123@gmail.com");
+		email.sendKeys("donisalmanan123@gmail.com4");
 
 		WebElement age = driver.findElement(By.id("age"));
 		age.sendKeys("dua puluh tiga tahun");
@@ -36,7 +36,7 @@ public class InputNegativeTest {
 		salary.sendKeys("200 Juta");
 
 		WebElement department = driver.findElement(By.id("department"));
-		department.sendKeys("Affiliator");
+		department.sendKeys("");
 
 		WebElement btnSubmit = driver.findElement(By.id("submit"));
 		wait.until(ExpectedConditions.elementToBeClickable(btnSubmit));
